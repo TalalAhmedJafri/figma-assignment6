@@ -9,10 +9,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "#FFFFFF",
         foreground: "var(--foreground)",
+        White: "#FFFFFF",
+        Header: "#F7F7F7",
+        divider: "#676767",
+        secondary: "#F7F7F7",
+        dot: "#8D8D8D",
       },
     },
+    screens:{
+      "mobile": 428
+    }
   },
   plugins: [],
 } satisfies Config;
